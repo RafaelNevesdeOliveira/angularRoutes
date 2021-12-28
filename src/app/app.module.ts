@@ -8,8 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
 import { CursoService } from './curso/curso.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { CursoModule } from './curso/curso.module';
-import { AlunosModule } from './alunos/alunos.module';
+// import { CursoModule } from './curso/curso.module';
+// import { AlunosModule } from './alunos/alunos.module';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { AlunosModule } from './alunos/alunos.module';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CursoModule,
-    AlunosModule,
+    // CursoModule,
+    // AlunosModule,
     ReactiveFormsModule,
   ],
   providers: [CursoService],
