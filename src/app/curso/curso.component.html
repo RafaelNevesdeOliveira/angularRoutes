@@ -1,8 +1,8 @@
 <h3>Lista de Cursos</h3>
 
 <p>Página: {{pagina}}</p>
-<div class="list-group">
-  <a class="list-group-item list-group-item-action"
+<div class="collection">
+  <a class="collection-item"
     *ngFor="let curso of cursos"
     [routerLink]="['/curso', curso.id]">
   {{ curso.nome }}

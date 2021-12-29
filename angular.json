@@ -36,7 +36,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "../materialize-css/dist/js/materialize.js"
+            ]
           },
           "configurations": {
             "production": {
